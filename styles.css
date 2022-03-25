@@ -1,0 +1,146 @@
+body {
+    background-image: url(img/background.jpg);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', Ubuntu, sans-serif;
+}
+
+main {
+   
+}
+
+.container {
+    width: 500px;
+    height: 425px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+
+.circle {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+    column-gap: 0.4rem;
+}
+
+.dot-1 {
+height: 10px;
+  width: 10px;
+  background-color: rgb(68, 65, 65);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.dot-2 {
+   height: 10px;
+  width: 10px;
+  background-color: rgb(68, 65, 65);
+  border-radius: 50%;
+  opacity: 60%;
+  display: inline-block;
+ margin-top: 20px; 
+}
+
+.dot-3 {
+   height: 10px;
+  width: 10px;
+  background-color: rgb(68, 65, 65);
+  border-radius: 50%;
+  opacity: 30%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+p {
+    display: flex;
+    font-size: 30px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: hsl(210, 4%, 80%);
+    
+}
+
+.visa{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px 15px;
+}
+
+.visa:hover {
+    background-color: rgb(221, 229, 230);
+}
+
+.dev {
+    align-self: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: hsl(210, 4%, 80%);
+}
+
+.check {
+    width: 36px;
+    height: 36px;
+}
+
+.master {
+     display: flex;
+    align-items: flex-start;
+    padding: px 30px 15px;
+}
+
+.mas {
+    color: black;
+    font-weight: 600;
+}
+.mast{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mast:hover {
+    background-color: rgb(221, 229, 230);
+}
+
+span .dev:nth-child(2) {
+    color: #000;
+}
+
+img {
+    width: 20%;   
+}
+
+.arr{
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(71, 112, 202);
+    height: 75px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    column-gap: 0.7rem;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    /* marging-top: 5px; */
+}
